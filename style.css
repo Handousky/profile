@@ -1,0 +1,104 @@
+body {
+  color: rgb(144, 144, 144);
+  background-color: rgb(235, 235, 235);
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+  color: #DD1F21;
+  font-family: 'Droid Sans', sans-serif, bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 15px;
+}
+
+a {
+  color: rgb(80, 80, 80);
+  text-decoration: none
+}
+
+a:hover {
+  color: #006786;
+}
+
+table {
+    font-style: normal;
+    text-align: start;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.big-icon {
+  font-size: 35px;
+}
+
+#albums {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.btn-red {
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
