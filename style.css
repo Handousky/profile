@@ -28,7 +28,7 @@ a {
 }
 
 a:hover {
-  color: #006786;
+  color: #1d2120;
 }
 
 table {
@@ -44,7 +44,7 @@ table {
 }
 
 .card {
-  background: white;
+  background: #bcd5d1;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
