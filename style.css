@@ -1,13 +1,13 @@
 body {
   color: rgb(144, 144, 144);
-  background-color: rgb(235, 235, 235);
+  background-color: #1d2120;
   font-size: 15px;
   line-height: 25px;
   font-family: 'Cabin', sans-serif;
 }
 
 h1 {
-  color: #DD1F21;
+  color: #ba9077;
   font-family: 'Droid Sans', sans-serif, bold;
   font-size: 20px;
 }
@@ -71,7 +71,7 @@ table {
 }
 
 .btn-red {
-  background-color: #DD5555;
+  background-color: #ba9077;
   color: white;
   font-weight: 500;
   padding: 10px;
